@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'Mero JobCenter',
+    'title' => 'Saharsa Job Center',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -63,7 +63,7 @@ return [
     |
     */
 
-    'logo' => '<b>Mero</b>JOb',
+    'logo' => '<b>Saharsa</b>JOb</b>Center',
     'logo_img' => 'vendor/adminlte/dist/img/photo1.jpg',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -253,7 +253,7 @@ return [
     */
 
     'use_route_url' => false,
-    'dashboard_url' => 'home',
+    'dashboard_route' => 'dashboards.index',
     'logout_url' => 'logout',
     'login_url' => 'login',
     'register_url' => 'register',
@@ -315,8 +315,6 @@ return [
             'text'        => 'DashBoard',
             'route'         => 'dashboards.index',
             'icon'        => 'nav-icon fas fa-th',
-            'label'       => 4,
-            'label_color' => 'success',
         ],
         ['header' => 'account_settings'],
         [
